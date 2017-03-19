@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  font-family: "Didact gothic";
+  color: black;
+  background-color: gainsboro;
+}
+h1 {
+  font-size: 60px;
+  font-family: Pacifico;
+  color: black;
+  text-shadow: 1px 1px 3px black;
+}
+h2 {
+  font-weight: bold;
+}
+h4 {
+  font-size: 30px;
+}
+.add-recipe {
+  width: 400px !important;
+}
+.container {
+  box-shadow: 0 0 10px black;
+  margin-top: 100px;
+  background-color: gainsboro;
+  min-height: 150px;
+  background-image: url("http://hcevisuals.com/wp-content/uploads/2015/02/Food-photography-Cafe-Bar-Sandwich.jpg")
+}
+ul {
+  list-style-type: none;
+  font-size: 20px;
+  text-align: center;
+  margin-left: -35px;
+  font-weight: bold;
+}
+li {
+  background-color: white;
+  margin: 10px;
+}
+.main {
+  width: 400px;
+  margin: 10px auto;
+  background-color: gray;
+  padding: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+.btn {
+  margin: 12px;
+  border-radius: 2px !important;
+  font-size: 20px;
+}
+label {
+  font-size: 18px;
+}
+@media screen and (max-width: 600) {
+  .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .add-recipe {
+      width: 100%;
+  }
+}
