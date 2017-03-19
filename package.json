@@ -1,0 +1,33 @@
+{
+  "name": "react-recipe-book",
+  "version": "1.0.0",
+  "description": "A react recipe application where users can create, edit and delete recipes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefu-chivy/react-recipe-book.git"
+  },
+  "author": "Chival Trotman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefu-chivy/react-recipe-book/issues"
+  },
+  "homepage": "https://github.com/codefu-chivy/react-recipe-book#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
