@@ -43,7 +43,8 @@ export default class Modal extends React.Component {
       this.state.recipes[id1].title = $("#name").val();
       this.state.recipes[id1].ings = $("#ingredients").val().split(",");
       this.setState({
-        edit: true
+        edit: true,
+        storage: this.state.recipes
       })
     }
   };
